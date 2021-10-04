@@ -1,0 +1,33 @@
+from countryinfo import CountryInfo
+
+
+country = CountryInfo('india')
+#x=country.info()
+#x=country.borders()
+x=country.area()
+
+x=country.info()
+x=country.provinces()
+x=country.alt_spellings()
+x=country.area()
+x=country.borders()
+x=country.calling_codes()
+x=country.capital()
+x=country.capital_latlng()
+x=country.currencies()
+x=country.demonym()
+#x=country.geojson()
+x=country.iso()
+x=country.languages()
+x=country.latlng()
+x=country.native_name()
+x=country.population()
+x=country.region()
+x=country.subregion()
+x=country.timezones()
+x=country.tld()
+x=country.translations()
+x=country.wiki()
+x=country.all()
+
+print(x)
